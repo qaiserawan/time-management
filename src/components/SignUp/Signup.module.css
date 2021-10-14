@@ -1,0 +1,11 @@
+label {
+    margin-bottom: 10px;
+}
+input {
+    margin-bottom: 15px;
+    line-height: 2 !important;
+}
+
+.CursorPosition i:hover{
+    cursor: pointer;
+}

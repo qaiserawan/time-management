@@ -1,0 +1,76 @@
+.NavWrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0px;
+    /* background-color: black; */
+}
+
+.Logo>img, .Dropdown>img{
+    width: 60px;
+}
+
+.Nav{
+    background-color: #28738d;
+    /* position: fixed;
+    width: 100%;
+    left: 0;
+    top: 0; */
+    box-shadow: 0px 5px 5px 0px rgba(0,0,0,0.4);
+-webkit-box-shadow: 0px 5px 5px 0px rgba(0,0,0,0.4);
+-moz-box-shadow: 0px 5px 5px 0px rgba(0,0,0,0.4);
+    height: 80px;
+}
+
+
+
+.Dropdown {
+    float: left;
+    overflow: hidden;
+  }
+  
+  .Dropdown .Dropbtn {
+    font-size: 16px;  
+    border: none;
+    outline: none;
+    color: white;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+  }
+  
+  .DropdownContent {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  }
+  
+  .DropdownContent a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+  }
+  
+  .DropdownContent a:hover {
+    background-color: #ddd;
+  }
+  
+  .Dropdown:hover .DropdownContent {
+    display: block;
+  }
+
+  .UserLoggedIn {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      width: 13%;
+  }
+
+  
+
+  

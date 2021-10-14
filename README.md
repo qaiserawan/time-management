@@ -1,3 +1,26 @@
+Manager Login:
+email: manager@spyko.com
+password: Lights123!
+
+
+User Login:
+email: adam@adam.com
+password: Lights123!
+
+User2 Login:
+email: bob@bob.com
+password: Lights123!
+
+
+
+
+
+
+
+
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).

@@ -1,0 +1,76 @@
+
+.Body{
+    background-color: #71cae8;
+    background-size: cover;
+    background-repeat: no-repeat;;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Card{
+    color: #fff;
+}
+.LogInCard{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    background-clip: border-box;
+    border: 1px solid rgba(0,0,0,.125);
+    border-radius: 10px;
+    height: 378px;
+    margin-top: auto;
+    margin-bottom: auto;
+    max-width: 408px;
+    width: 100%;
+    margin: 0 auto;
+    background-color: rgb(16 104 133) !important;
+}
+
+.LogInHeader{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.LogInBody{
+    height: 40%;
+}
+
+.LogInFooter{
+    display: flex;
+    justify-content: center;
+}
+
+.LogInBtn>button{
+    display: block;
+    border: none;
+    border-radius: 3px;
+    padding: 5px;
+    width: 130px;
+    margin: 0 auto 15px;
+}
+
+.LogInHeader, .LogInBody, .LogInFooter{
+    padding: 0px 25px;
+}
+
+.LogInCard input[type="text"]{
+    padding: 10px;
+    max-width: 375px;
+    width: 100%;
+    border-radius: 5px;
+    border: none;
+} 
+
+
+
+.LogInCard input:focus{
+outline: 0 0 0 0  !important;
+box-shadow: 0 0 0 0 !important;
+
+}
+
+.LogInCard .input-group{
+    padding: 5px;
+}

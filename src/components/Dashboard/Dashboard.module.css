@@ -1,0 +1,16 @@
+body {
+    background-color: #a6b7bc !important;
+}
+.CardsList{
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+}
+
+.DashboardHeading{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 350px;
+    margin: 0 auto;
+}

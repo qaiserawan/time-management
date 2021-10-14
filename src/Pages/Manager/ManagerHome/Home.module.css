@@ -1,0 +1,10 @@
+.UserList{
+    display: flex;
+    justify-content: space-between;
+    font-size: 40px;
+    align-items: center;
+}
+
+.UserIcon{
+    font-size: 50px;
+}
